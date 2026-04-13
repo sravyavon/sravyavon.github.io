@@ -3,37 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Sravya</title>
+    <title>About - Sravya Vontikommu</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>About Me</h1>
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">Sravya V.</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="projects.html">Experience</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
     </nav>
     
     <main>
-        <section class="hero">
-            <h2>About Me</h2>
+        <section class="page-hero">
+            <h1>Professional Profile</h1>
+            <p>QA automation leader with strong public-sector compliance depth, enterprise CI/CD rigor, and modern AI-augmented testing practices.</p>
+        </section>
+
+        <section class="page-content">
             <div class="about-content">
                 <div class="section">
-                    <h3>Professional Summary</h3>
-                    <p>9 years of experience in Software Testing with strong expertise in both Manual and Automation testing across domains like Public Sector (Medicaid, SNAP, TANF), Financial Services, and Non-Profit applications.</p>
+                    <h3>Summary</h3>
+                    <p><strong>Senior Quality Assurance Analyst</strong> with <strong>9+ years</strong> of expertise in test automation, quality strategy, and cross-functional leadership across <strong>Public Sector, Financial Services, and Non-Profit</strong> domains. Proficient in designing and implementing scalable test frameworks using industry-leading tools and methodologies. Demonstrated success in automating complex workflows, reducing regression cycle time, and improving product quality through data-driven testing approaches.</p>
                     <ul>
-                        <li>Proficient in UI validation using Selenium WebDriver with Java (BDD, Keyword Driven, Page Object Model) and Cypress across modern web applications.</li>
-                        <li>Strong working knowledge of XPath strategies, Page Object Model (POM), GIT and Bitbucket version control, Maven build tools, Jenkins pipelines, and framework development.</li>
-                        <li>Experienced in API testing using Postman, REST Assured, and SOAP UI.</li>
-                        <li>Hands-on experience with test management and defect tracking tools: JIRA, HP ALM, Rally, ClearQuest.</li>
-                        <li>Skilled in SQL queries and backend validation in SQL Server, Oracle, and MySQL.</li>
-                        <li>Proven ability to manage CI/CD pipelines, analyze Splunk logs for defect diagnosis, participate in Agile/Scrum processes.</li>
+                        <li><strong>UI Automation Frameworks:</strong> Designed and implemented Selenium WebDriver, Cypress, and Playwright-based frameworks using Page Object Model (POM), Keyword-Driven, and Data-Driven architectures.</li>
+                        <li><strong>API Testing & Microservices:</strong> Validated backend systems using Postman, REST Assured, and SOAP UI across JSON and XML protocols.</li>
+                        <li><strong>Backend Validation:</strong> Proficient in SQL query development and data integrity verification across SQL Server, Oracle, and MySQL databases.</li>
+                        <li><strong>CI/CD Pipeline Integration:</strong> Hands-on experience with Jenkins, Maven, Bamboo, and cloud platforms including AWS, PCF, and Azure.</li>
+                        <li><strong>BDD & Test Automation:</strong> Implemented Cucumber and TestNG frameworks with comprehensive test case management and behavior-driven development practices.</li>
+                        <li><strong>Defect Management & Reporting:</strong> Extensive experience with JIRA, HP ALM, Rally, and ClearQuest for end-to-end defect lifecycle management.</li>
+                        <li><strong>Cross-Browser & Compatibility Testing:</strong> Deep validation experience across Chrome, Firefox, Safari, and legacy enterprise browser requirements.</li>
+                        <li><strong>AI-Augmented QA Delivery:</strong> Hands-on use of GitHub Copilot and Claude Code for faster script authoring, smarter debugging, and maintenance optimization.</li>
+                        <li><strong>Agile Leadership:</strong> Active participant in sprint planning, backlog grooming, and Scrum ceremonies with strong cross-functional collaboration skills.</li>
                     </ul>
                 </div>
                 
@@ -42,42 +48,68 @@
                     <div class="skills-grid">
                         <div class="skill-group">
                             <h4>Languages</h4>
-                            <p>Java, JavaScript, HTML, CSS, SQL</p>
+                            <p>Java, JavaScript, SQL, HTML, CSS</p>
+                        </div>
+                        <div class="skill-group">
+                            <h4>UI Automation</h4>
+                            <p>Selenium WebDriver, Cypress, Playwright, XPath, CSS Selectors, Page Object Model (POM)</p>
                         </div>
                         <div class="skill-group">
                             <h4>Testing Frameworks</h4>
-                            <p>Selenium (WebDriver, Grid, XPath, TestNG, Maven), Cypress, Cucumber, TestNG</p>
+                            <p>TestNG, JUnit, Cucumber (BDD), Keyword-Driven, Data-Driven</p>
                         </div>
                         <div class="skill-group">
                             <h4>API Testing</h4>
-                            <p>Postman, REST Assured, SOAP UI, Bruno</p>
+                            <p>Postman, REST Assured, SOAP UI, JSON/XML/WSDL validation</p>
                         </div>
                         <div class="skill-group">
-                            <h4>Version Control / CI/CD</h4>
-                            <p>GIT, Bitbucket, Jenkins, Maven, Bamboo</p>
+                            <h4>CI/CD & DevOps</h4>
+                            <p>Jenkins, Maven, Bamboo, Copado (Salesforce), Git, Bitbucket, SVN</p>
                         </div>
                         <div class="skill-group">
                             <h4>Databases</h4>
-                            <p>SQL Server, Oracle, MySQL</p>
+                            <p>SQL Server, Oracle, MySQL, SQL query development, backend validation</p>
                         </div>
                         <div class="skill-group">
-                            <h4>Tools & Platforms</h4>
-                            <p>JIRA, HP ALM, Rally, PCF, AWS, Azure, Splunk, Appium</p>
+                            <h4>Cloud & Platforms</h4>
+                            <p>AWS, PCF (Pivotal Cloud Foundry), Azure, Splunk logs analysis</p>
+                        </div>
+                        <div class="skill-group">
+                            <h4>Test Management</h4>
+                            <p>JIRA, HP ALM, Rally, ClearQuest, defect tracking and reporting</p>
+                        </div>
+                        <div class="skill-group">
+                            <h4>Specialized Testing</h4>
+                            <p>Appium (mobile), Salesforce QA, Stripe Payments, Cross-browser testing</p>
+                        </div>
+                        <div class="skill-group">
+                            <h4>AI & Productivity</h4>
+                            <p>GitHub Copilot, Claude Code, prompt engineering, AI-assisted debugging and test optimization</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="section">
                     <h3>Education</h3>
-                    <p><strong>Bachelor of Technology in Information Technology</strong></p>
+                    <p><strong>Master of Science in Computer Science</strong></p>
+                    <p>Kent State University, Ohio</p>
+                    <p style="margin-top: 1.5rem; margin-bottom: 0;"><strong>Bachelor of Technology in Information Technology</strong></p>
                     <p>Jawaharlal Nehru Technological University, India</p>
+                </div>
+
+                <div class="section">
+                    <h3>Certifications</h3>
+                    <ul>
+                        <li>Google AI Essentials Certificate</li>
+                        <li>Generative AI Foundations Certificate</li>
+                    </ul>
                 </div>
             </div>
         </section>
     </main>
     
     <footer>
-        <p>&copy; 2026 Sravya. All rights reserved.</p>
+        <p>&copy; 2026 Sravya Vontikommu. All rights reserved.</p>
     </footer>
 </body>
 </html>
