@@ -201,7 +201,6 @@ h1, h2, h3, h4 {
     padding: 1.55rem;
     border-radius: 8px;
     border: 1px solid #e5e7eb;
-    border-left: 4px solid #2563eb;
     box-shadow: 0 4px 10px rgba(17, 24, 39, 0.06);
     text-align: center;
     transition: all 0.3s ease;
